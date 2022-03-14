@@ -1,0 +1,24 @@
+<html>
+<body>
+<script>
+emp = {id:1,name:'sallay',salary:45000}
+document.writeln(emp.salary)
+</script>
+<script>  
+var emp = new Object();
+emp.id = 12
+emp.name = 'sanjay';
+emp.salary = 50000
+document.write(emp.salary)
+</script>  
+<script>  
+function emp(id,name,salary){
+this.id = id;
+this.name = name;
+this.salary = salary;
+}
+e = new emp(1,'sallay',75000)
+document.write(e.salary)
+</script>
+</body>
+</html>

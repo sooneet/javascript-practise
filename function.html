@@ -1,0 +1,23 @@
+<html>
+<body>
+<script>  
+function msg(){alert('hello')}
+</script>
+<input type='button' value='call' onclick='msg()'/>
+<script>
+function getcube(num){alert(num*num*num)}
+</script> 
+<form>
+<input type='button' value='call' onclick='getcube(5)'/>
+</script>
+<script>
+    function getinfo(){
+    return 'hello javatpoint! How r u?'
+    }  
+    document.write(getinfo())
+</script>
+var pow = new Function('num1','num2','return Math.pow(num1,num2)')
+document.writeln(pow(2,3))
+</script>
+</body>
+</html>
